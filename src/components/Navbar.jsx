@@ -15,15 +15,29 @@ const Navbar = () => {
       <div className="w-full flex jsutify-between items-center max-w-7xl max-auto">
         <Link
           to="/"
-          className="flex items-center gap-2"
+          className="flex items-center gap-5"
           onClick={() => {
             setActive("");
-            window.scrollTo(0,0);
+            window.scrollTo(0, 0);
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer ">Lucien Masudi</p>
+          <p className="text-white text-[18px] font-bold cursor-pointer ">Lucien <span className="sm:block hidden"> Masudi</span></p>
         </Link> 
+        <ul className="list-none float-right md:float-left hidden sm:flex flex-row gap-10 justify-end items-center ml-auto">
+          {navLinks.map((Link) =>(
+            <li
+              key={Link.id}
+              className={`${
+                active === Link.title
+                  ? "text-white"
+                  :"text-secondary"
+              }`}
+            >
+              <a href={`#${Link.id}`}>{Link.title}</a>
+            </li>
+          ))}
+        </ul>
       </div>
     </nav>
   )
