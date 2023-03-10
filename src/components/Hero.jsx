@@ -17,6 +17,8 @@ const Hero = () => {
         </div>
       </div>
       <ComputersCanvas/>
+
+      <div className="absolute xs:bottom-10 buttom-32 w-full flex justif" ></div>
     </section>
   )
 }
