@@ -21,7 +21,7 @@ const About = () => {
 
       <motion.p 
         variant={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary"
+        className="mt-4"
       >
         I am a highly curious and passionate individual with a deep interest in science and technology. I am always eager to learn more about the latest advancements and developments in these fields, and am constantly seeking new ways to apply this knowledge to improve the world around me.
         My passion for science and technology also makes me a valuable team member, I am a creative thinker and able to generate new ideas. I am constantly looking for ways to use the latest technologies to improve processes and make things more efficient. I am always looking to learn something new and challenging myself.
