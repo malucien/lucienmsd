@@ -23,7 +23,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] text-[#68b8ed] font-bold cursor-pointer ">Lucien &nbsp; <span className="sm:block hidden"> Masudi</span></p>
+          <p className=" text-[18px] text-[#68b8ed] font-bold cursor-pointer ">Lucien &nbsp; <span className="sm:block hidden"> Masudi</span></p>
         </Link> 
         <ul className="list-none float-right md:float-left hidden sm:flex flex-row gap-10 justify-end items-center ml-auto">
           {navLinks.map((Link) =>(
@@ -32,7 +32,7 @@ const Navbar = () => {
               className={`${
                 active === Link.title
                   ? "text-white"
-                  :"text-secondary"
+                  :"text-[#68b8ed]"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(Link.title)}
             >
@@ -58,7 +58,7 @@ const Navbar = () => {
                     className={`${
                       active === Link.title
                         ? "text-white"
-                        :"text-secondary"
+                        :"text-[#68b8ed]"
                     } font-poppins font-medium cursor-pointer text-[16px]`}
                     onClick={() => {
                       setToggle(!toggle);
