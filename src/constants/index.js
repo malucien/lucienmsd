@@ -35,6 +35,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "Blog",
+    title: "Blog",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -47,11 +51,11 @@ const services = [
   },
   {
     title: "Backend developer",
-    icon: mobile,
+    icon: backend,
   },
   {
     title: "Database",
-    icon: backend,
+    icon: mobile,
   },
   {
     title: "AI Research",
@@ -116,7 +120,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Portfolio website",
     company_name: "Starbucks",
     icon: starbucks,
     iconBg: "#383E56",
