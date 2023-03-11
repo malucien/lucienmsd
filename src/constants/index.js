@@ -122,8 +122,8 @@ const experiences = [
   {
     title: "Portfolio website",
     company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
+     
+    iconBg: "#497f8e",
     date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
