@@ -120,7 +120,7 @@ const technologies = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Portfolio website",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -129,7 +129,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "javAsCRIPT",
         color: "green-text-gradient",
       },
       {
@@ -138,20 +138,16 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/malucien/lucienmsd",
   },
   {
-    name: "Job IT",
+    name: "Carousel 3D Animation",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "HTML5",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
       },
       {
         name: "scss",
@@ -159,10 +155,35 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/malucien/carousel-animation",
   },
   {
-    name: "Trip Guide",
+    name: "Campsite",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "Bootsrat",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML5",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/malucien/Nucampsite",
+  },
+  {
+    name: "Case management software",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -180,7 +201,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/malucien/IIW",
   },
 ];
 

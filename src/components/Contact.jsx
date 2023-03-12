@@ -76,7 +76,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-[] p-8 rounded-2xl'
       >
-        <p className="text-[#68b8ed] text-[25px]">Get in touch</p>
+        <p className="text-[#68b8ed] font-bold text-[25px]">Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form
@@ -91,7 +91,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="Enter your  name."
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -102,7 +102,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="Enter your Email address."
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -113,7 +113,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='Type your message.'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
