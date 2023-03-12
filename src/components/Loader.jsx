@@ -26,6 +26,7 @@ const CanvasLoader = () => {
       </p>
     </Html>
   );
+  
 };
 
 export default CanvasLoader;
