@@ -17,6 +17,8 @@ import {
   docker,
   meta,
   starbucks,
+  casemanage1,
+  casemanage2,
   tesla,
   shopify,
   carrent,
@@ -34,10 +36,10 @@ export const navLinks = [
     id: "work",
     title: "Work",
   },
-  {
+ /* {
     id: "Blog",
     title: "Blog",
-  },
+  },*/
   {
     id: "contact",
     title: "Contact",
@@ -122,14 +124,14 @@ const projects = [
   {
     name: "Portfolio website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "My personal portfolio website is to showcase of my work, skills, and achievements in a professional manner. it can also serve a as a platform for networking.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "javAsCRIPT",
+        name: "javaScript",
         color: "green-text-gradient",
       },
       {
@@ -141,16 +143,16 @@ const projects = [
     source_code_link: "https://github.com/malucien/lucienmsd",
   },
   {
-    name: "Carousel 3D Animation",
+    name: "3D Animation",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Built entirely with CSS and HTML5, As soon as you arrive on the landing page, you'll be greeted with a dynamic and beautiful 3D environment.",
     tags: [
       {
         name: "HTML5",
         color: "blue-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -160,10 +162,10 @@ const projects = [
   {
     name: "Campsite",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The purpose of the campsite website is to provide a user-friendly platform for people to search, compare, and book their preferred camping site.",
     tags: [
       {
-        name: "Bootsrat",
+        name: "Bootstrap",
         color: "blue-text-gradient",
       },
       {
@@ -183,24 +185,28 @@ const projects = [
     source_code_link: "https://github.com/malucien/Nucampsite",
   },
   {
-    name: "Case management software",
+    name: "Case management",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Case Management Software for IIW is a powerful tool designed to help IIW track and manage all its cases and improve its overall service provision.",
     tags: [
       {
-        name: "nextjs",
+        name: "Bootstrap",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "HTML5",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Sass ",
         color: "pink-text-gradient",
       },
+      {
+        name: "jQuery ",
+        color: "orange-text-gradient",
+      },
     ],
-    image: tripguide,
+    image: casemanage1,
     source_code_link: "https://github.com/malucien/IIW",
   },
 ];
