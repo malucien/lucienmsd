@@ -124,7 +124,7 @@ const projects = [
   {
     name: "Portfolio website",
     description:
-      "My personal portfolio website is to showcase of my work, skills, and achievements in a professional manner. it can also serve a as a platform for networking.",
+      "My personal portfolio website is to showcase of my work, skills, and achievements in a professional manner. it can also serve as a platform for networking.",
     tags: [
       {
         name: "react",
